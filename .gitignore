@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/secrets.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# API Data (generated)
+data/api_results_basic.csv
+data/api_results_basic.csv.bak
+data/football_data_api.csv
+data/api_training_format.csv
+data/epl_api_full.csv
+
+# Team Name Map (contains API-generated mappings)
+data/team_name_map.json
+data/team_name_map.json.bak
+
+# Generated Team Strengths (computed from data)
+data/team_strengths/*.json
+data/team_strengths_master.csv
+
+# Backup files
+*.bak
+*.backup
+
+# Test files
+data/_write_test.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+
